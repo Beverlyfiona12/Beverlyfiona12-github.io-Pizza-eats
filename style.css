@@ -8,9 +8,9 @@
 }
 html{
     font-size: 70%;
-    overflow-x: hidden;
-    scroll-padding-top: 5.5rem;
-    scroll-behavior: smooth;
+    /* overflow-x: hidden; */
+    /* scroll-padding-top: 5.5rem; */
+    /* scroll-behavior: smooth; */
 }
 header{
     position: fixed;
@@ -64,3 +64,37 @@ header .icons a:hover{
     color:#fff;
 }
 
+/* HOME PAGE */
+.home .container.box{
+    display: flex;
+    /* align-items: center; */
+    flex-wrap: wrap; 
+     gap:2rem;  
+     padding-top: 9rem; 
+}
+
+.box{
+    flex:1 1 45rem;
+}
+
+.home .container .box .image img{
+    width: 50%;
+    float: right;
+}
+.home .container .box .content span{
+    color:var(--green);
+    font-size: 5.5rem;
+    
+}
+
+.home .container .box .content h3{
+    color:var(--black);
+    font-size: 7rem;
+}
+
+.home .container .box .content p{
+    color:var(--light-color);
+    font-size: 2.2rem;
+    padding:.4rem 0;
+    line-height: 1.5;
+}
