@@ -37,4 +37,76 @@ nav .navbar{
     font-weight: 700;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+/* HOME */
+pi{color: rgb(99, 243, 86);}
+.zz{color: rgb(224, 238, 30);}
+.hub{color: rgb(252, 53, 26);}
+.text a{
+    font-size: 20px;
+    font-weight: 700;
+}
+h1 {
+    font-family: 'Kalam', cursive;
+    letter-spacing: 8px;
+    font-weight: bolder;
+    font-size: 60px;
+    text-shadow: 2px 2px 5px rgb(230, 106, 5);
+}
+
+h2 {
+  color: #f14603;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight:600;
+}
+h5 {
+    letter-spacing: 3px;
+}
+.text h5{
+    font-size: 25px;
+    padding: 20px;
+}
+#head{
+    padding-top: 10%;
+}
+  /* button */
+.btn{
+    border-radius: 40px;
+    margin-top: 1rem;
+    display: inline-block;
+    font-size: 1.7rem;
+    color:green;
+    background: black;
+    cursor: pointer;
+    padding:.8rem 3rem;
+}
+
+.btn:hover{
+    background: green;
+    letter-spacing: .1rem;
+}
+/* carousel card section */
+.card-title{
+    text-align: center;
+    color: rgb(236, 58, 4);
+    font-weight: 800;
+}
+.card {
+  margin: 10px 0;
+  position: relative;
+  overflow: hidden;
+}
+.card:hover img {
+  transform: scale(1.2);
+  transition: all 0.3s ease;
+}
+.controls-top h2{
+    color: rgb(233, 130, 13);
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-weight: bolder;
+}
+#sample{
+    padding-top: 30px;
+}
+
 
