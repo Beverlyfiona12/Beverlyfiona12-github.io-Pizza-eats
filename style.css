@@ -139,5 +139,62 @@ label{
     text-align: center;
     color: white;
 }
+/* CONTACT */
+#contact h2{
+    text-align: center;
+}
+#contact{
+    color: black;
+    background-color: green;
+    padding-bottom: 20px;
+}
+#contactdetails h2{
+    text-align: left;
+}
 
+ ul {
+    list-style: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: fit-content;
+ }
+ #contact h2{
+    text-align: center;
+}
+#contact{
+    color: black;
+    background-color: rgb(165, 11, 44);
+    padding-bottom: 20px;
+}
+#contactdetails h2{
+    text-align: left;
+}
 
+ul {
+    list-style: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  
+    width: fit-content;
+  }
+  ul .social-list {
+    background-color: rgb(10, 9, 9);
+  }
+
+  li {
+    float: left;
+    font-size: x-large;
+  }
+  
+  li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+ 
